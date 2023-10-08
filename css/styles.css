@@ -21,6 +21,12 @@ color: var(--text);
 background-color: var(--white-background);
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /*container*/
 .container {
     width: 1158px;
@@ -30,6 +36,10 @@ background-color: var(--white-background);
 }
 
 /* Style logo in header*/
+
+.header-style{
+    border-bottom: 1px solid var(--accent);
+}
 .logo{
     color:var(--primary-brand);
     font-size: 18px;
@@ -68,7 +78,7 @@ background-color: var(--white-background);
 .link-nav {
     font-weight: 500;
     color: var(--dark);
-    padding: 24 px 0;
+    padding: 24px 0;
     gap: 40px;
 }
 
@@ -143,7 +153,7 @@ background-color: var(--white-background);
     cursor: pointer;
 }
 
-.features-div{
+.features-list{
     width: calc((100% - 72px)/4);
 }
 .second-section-container{
@@ -181,6 +191,7 @@ background-color: var(--white-background);
 }
 .portfolio-image-container{
     width: calc((100% - 48px)/3);
+    display: block;
 
 }
 
@@ -264,6 +275,7 @@ background-color: var(--white-background);
     color: var(--light);
     background-color: var(--hero-background);
     height: 312px;
+    padding: 100px 0;
 }
 
 .studio-footer{
@@ -282,8 +294,9 @@ background-color: var(--white-background);
 
 .footer-container{
     flex-direction: column;
-
 }
-.footer-logo{
-    padding-top: 101.5px;
+
+.footer-link{
+    display: inline-block;
+    margin-bottom: 16px;
 }
