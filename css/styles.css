@@ -165,6 +165,7 @@ p {
     margin-top: 48px;
     min-width: 169px;
     cursor: pointer;
+    display: block;
 
 }
 
