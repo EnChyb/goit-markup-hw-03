@@ -70,19 +70,26 @@ p {
     display: flex;
     align-items: center;
     padding: 0 15px;
-    flex-wrap: wrap;
-    gap: 40px;
 }
+
 .logo-container{
     display: flex;
     align-items: center;
     margin-right: auto;
 
 }
+.menu-container{
+    display: flex;
+    gap: 40px;
+}
 .address-container {
     display: flex;
     align-items: center;
 
+}
+.address-list{
+    display: flex;
+    gap: 40px;
 }
 
 /*style header*/
